@@ -6,5 +6,5 @@ Windows Assessment and Deployment Kit (ADK) for Windows 8.1. You can get it [her
 
 ## Usage
 * Clone the repo and edit the enviroment variables in the file **pebuilder.cmd** to fit your needs.
-* The file **winpeshl.ini** (under files\Windows\System32) gets executed on WinPE start. The example provided starts the network, sets locale and keyboard, makes some tweaks in registry, and finally starts bbLean, a Blackbox clone which comes handy to replace Explorer. Make sure to edit it if your setup if different than mine (for example, if you use other locale, or if you don't use bbLean) or WinPE will probably crash on boot.
+* The file **winpeshl.ini** (under files\Windows\System32) gets executed on WinPE start. The example provided starts the network, sets locale and keyboard, makes some tweaks in registry, and finally starts bbLean, a Blackbox clone which comes handy to replace Explorer. Make sure to edit it if your setup is different than mine (for example, if you use other locale, or if you don't use bbLean) or WinPE will probably crash on boot.
 * Run **pebuilder.cmd** from the special shell provided with the ADK.
