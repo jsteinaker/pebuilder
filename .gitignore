@@ -1,8 +1,2 @@
 # The WinPE tree (regenerated every time the script is run)
 winpe/
-
-# Ignore Tools folder, except for config files
-files/amd64/Tools/
-!files/amd64/Tools/**/*.rc
-files/x86/Tools/
-!files/x86/Tools/**/*.rc
