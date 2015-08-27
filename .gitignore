@@ -1,6 +1,10 @@
 # The WinPE tree (regenerated every time the script is run)
 winpe/
 
-# The Tools folder, on both archs (can't upload binaries here)
+# The Tools folder, on both archs (can't upload binaries here)...
 files/amd64/Tools/
 files/x86/Tools/
+
+# ...except for config files
+# BlackBox
+!*.rc
