@@ -72,3 +72,6 @@ KeyToGrab(Home),        WithModifier(Win),      WithAction(Exec docs\bblean.htm)
 
 # BroadcastMessage example (toggles bbLeanSkin, uncomment to use)
 ! KeyToGrab(L), WithModifier(Win), WithAction(exec @BBCfg.plugin.load bbLeanSkin)
+
+# TaskManager
+KeyToGrab(Delete),		WithModifier(Ctrl+Alt),	WithAction(Exec X:\Tools\SysinternalsSuite\procexp.exe)
