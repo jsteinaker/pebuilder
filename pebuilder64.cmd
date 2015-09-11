@@ -1,7 +1,7 @@
 @echo off
 
 :: Some environment variables
-set arch=x86
+set arch=amd64
 set language=es-es
 set root=D:\pebuilder
 set peroot=%root%\winpe
